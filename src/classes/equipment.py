@@ -43,6 +43,3 @@ Newbie_wand = Equipment(str=1, mana=3, speed=1, type= "weapon", equip_type="pet"
 stick = Equipment(str=1, type="weapon", equip_type="pet", name="Stick", desc="Really a stick come on stick to a better weapon")
 Slime_ring = Equipment(Str=1, type="armor", equip_type="pet", desc="Ugh a slimy ring why bother to wear it")
 stone_ring = Equipment(armor=1 , type="armor", equip_type="pet", name="Stone ring", desc="Surprising not heavy.")
-
-
-
