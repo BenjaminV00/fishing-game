@@ -97,14 +97,8 @@ class Fishing_game:
                         self.combat_menu.cursor.go_up()
                         self.combat_menu.current_option -= 1
                     if event.key == pygame.K_KP_ENTER:
-                        if self.combat_menu.current_option == 1:
-                            print("Fight was selected!")
-                        if self.combat_menu.current_option == 2:
-                            print("Skills was selected!")
-                        if self.combat_menu.current_option == 3:
-                            print("Magic was selected!")
-                        if self.combat_menu.current_option == 4:
-                            print("Item was selected!")
+                        print(
+                            self.combat_menu._option_list[self.combat_menu.current_option-1] + " was selected!")
 
     def _draw(self):
         # draw the background
